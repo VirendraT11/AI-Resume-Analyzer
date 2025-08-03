@@ -1,87 +1,108 @@
-# Welcome to React Router!
 
-A modern, production-ready template for building full-stack React applications using React Router.
+# 🛡️ ResumeShield - AI Resume Analyzer
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A smart, interactive web app that analyzes resumes using AI and provides real-time feedback to improve your chances of landing your dream job! 🚀
 
-## Features
+🔗 [Live Demo](https://ai-resume-analyzer-delta-mauve.vercel.app/)  
+📂 [GitHub Repo](https://github.com/VirendraT11/AI-Resume-Analyzer)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+---
 
-## Getting Started
+## 🧠 What is ResumeShield?
 
-### Installation
+**ResumeShield** uses the power of AI to **analyze your resume**, detect **missing keywords**, assess **job match strength**, and give **actionable suggestions**. Upload your PDF, select a target role, and let AI guide your improvement. Built for developers, job seekers, and career growth enthusiasts. 💼📈
 
-Install the dependencies:
+---
+
+## ✨ Features
+
+✅ Upload your resume (PDF) with drag & drop or click  
+✅ Choose a job role (Frontend Developer, Backend Developer, Data Scientist, etc.)  
+✅ Real-time AI-powered resume analysis  
+✅ Missing keyword detection 🔍  
+✅ Overall resume match score 🧮  
+✅ Skill & project suggestions to add 📌  
+✅ Beautiful, clean UI with responsive design 💅  
+✅ Local state management using Zustand  
+✅ Smart file parsing via `puter.js` and `puter.com`  
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech            | Description                                |
+|-----------------|--------------------------------------------|
+| ⚛️ React        | Frontend library for building UI           |
+| 🧠 TypeScript    | Type-safe development experience           |
+| 💨 Tailwind CSS  | Utility-first CSS for styling              |
+| 📦 Zustand       | Lightweight and scalable state management |
+| 🌐 React Router  | Seamless page navigation                  |
+| 🧾 puter.js      | Secure file processing and parsing        |
+| ☁️ puter.com API | Powering resume parsing and analysis      |
+| 🚀 Vercel        | Deployment and hosting                    |
+
+---
+
+## 📂 Folder Structure (Overview)
+
+```
+
+AI-Resume-Analyzer/
+├── public/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Route-level components
+│   ├── store/          # Zustand state management
+│   ├── utils/          # Utility functions
+│   ├── styles/         # Tailwind and custom CSS
+│   └── main.tsx        # App entry point
+├── .gitignore
+├── package.json
+└── README.md
+
+````
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/VirendraT11/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
+````
+
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+3. **Run the development server**
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ---
 
-Built with ❤️ using React Router.
+## 🤝 Connect with Me
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/virendra-tambavekar/)
+* 🐦 [Twitter / X](https://x.com/VirendraCodes)
+
+Let's grow together and build impactful tech! 🌱💻
+
+---
+
+## ⭐ Contributions & Feedback
+
+Contributions, suggestions, and feedback are welcome!
+If you like the project, don’t forget to **⭐ star** the repository.
+
+---
+
+> Made with ❤️ by [Virendra Tambavekar](https://github.com/VirendraT11)
+
